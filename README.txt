@@ -1,3 +1,17 @@
+Exploring Conditional Random Fields (CRFs), but we will use additional image level features such as convolutions to aid the training. We will use PyTorch to implement our CRF model and convolutions. This is an end-to-end machine learning solution to a problem in PyTorch. In the process, we will do differentiable layer-wise programming, which is common across all the popular deep learning frameworks that exist today.
+
+Tasks done:
+
+▪ Implemented a conditional random field model for Optical Character Recognition(OCR), with emphasis on inference and performance test.
+▪ Benchmarking done by comparing CRF with multi-class linear SVM
+▪ Used image level features such as convolutions to aid the training of CRF
+▪ Comparison of LBFGS and ADAM optimizers
+▪ Benchmarking with renowned networks such as VGG, AlexNet, ResNet and GoogLeNet
+▪ Used PyTorch and utilized GPUs for training
+
+
+
+
 3.
 ------------------
 Files: conv_test.py, conv_dg.py
